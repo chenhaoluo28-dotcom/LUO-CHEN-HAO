@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chen-Hao Luo</title>
+  <title>Luo Chen-Hao</title>
   <style>
+    html { scroll-behavior: smooth; }
     :root { --accent: #c0392b; --line: #e6e6e6; }
     * { box-sizing: border-box; }
+
     body {
       margin: 0 auto;
       max-width: 900px;
@@ -15,6 +17,7 @@
       color: #222;
       background: #fff;
     }
+
     header {
       border-bottom: 1px solid var(--line);
       padding: 20px 0;
@@ -25,17 +28,32 @@
       gap: 20px;
       flex-wrap: wrap;
     }
+
+    header strong {
+      font-size: 1.15rem;
+    }
+
     nav a {
       margin-left: 20px;
       color: #333;
       text-decoration: none;
     }
-    nav a:hover, a { color: var(--accent); }
+
+    nav a:hover,
+    a {
+      color: var(--accent);
+    }
+
+    section {
+      scroll-margin-top: 20px;
+    }
+
     h2 {
       margin-top: 40px;
       border-bottom: 1px solid var(--line);
       padding-bottom: 6px;
     }
+
     footer {
       border-top: 1px solid var(--line);
       margin-top: 56px;
@@ -48,11 +66,11 @@
 <body>
 
 <header>
-  <strong>Chen-Hao Luo</strong>
+  <strong>Luo Chen-Hao</strong>
   <nav>
     <a href="#about">About</a>
     <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
+    <a href="#thesis">Thesis</a>
     <a href="#code">Code</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -60,26 +78,46 @@
 
 <section id="about">
   <h2>About</h2>
-  <p>I am a student/researcher in ...（这里写你的学校、专业、年级或职位）。</p>
-  <p>我的研究兴趣是统计方法、传染病监测和 pooled testing。这里可以再写两三句自我介绍。</p>
+  <p>
+    I received my M.S. in Statistics and Data Science from the Institute of
+    Statistics and Data Science, National Taiwan University, in June 2026.
+  </p>
+  <p>
+    My research interests include statistical methods, infectious disease
+    surveillance, and pooled testing.
+  </p>
 </section>
 
 <section id="research">
   <h2>Research</h2>
-  <p>Research interests: statistical methods, infectious disease surveillance, pooled testing.</p>
+  <p>
+    Research interests: statistical methods, infectious disease surveillance,
+    and pooled testing.
+  </p>
 </section>
 
-<section id="publications">
-  <h2>Publications</h2>
-  <ol>
-    <li>Author, A., <strong>Luo, C.-H.</strong>, Author, B. (2026). Paper title. <em>Journal Name</em>.</li>
-  </ol>
+<section id="thesis">
+  <h2>Thesis</h2>
+  <p>
+    Master's Thesis, Institute of Statistics and Data Science,
+    National Taiwan University, 2026.
+  </p>
+  <p>
+    <a href="https://tdr.lib.ntu.edu.tw/handle/123456789/103223"
+       target="_blank" rel="noopener">
+      Read the thesis
+    </a>
+  </p>
 </section>
 
 <section id="code">
   <h2>Code</h2>
   <p>
-    <a href="https://github.com/chenhaoluo28-dotcom/LUO-CHEN-HAO/tree/main/WNV_pooled_testing_code">
+    The code for my master's thesis is available on GitHub:
+  </p>
+  <p>
+    <a href="https://github.com/chenhaoluo28-dotcom/LUO-CHEN-HAO/tree/main/WNV_pooled_testing_code"
+       target="_blank" rel="noopener">
       WNV pooled testing code
     </a>
   </p>
@@ -87,10 +125,15 @@
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+  <p>
+    Email:
+    <a href="mailto:chenhaoluo28@gmail.com">chenhaoluo28@gmail.com</a>
+  </p>
 </section>
 
-<footer>© 2026 Chen-Hao Luo</footer>
+<footer>
+  © 2026 Luo Chen-Hao
+</footer>
 
 </body>
 </html>
