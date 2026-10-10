@@ -1,0 +1,28 @@
+{
+  "project_name": "{{PROJECT_NAME}}",
+  "slug": "{{SLUG}}",
+  "created": "{{DATE}}",
+  "platform": "{{PLATFORM}}",
+  "aspect_ratio": "{{ASPECT}}",
+  "language": "zh-CN",
+  "style": "虾仁风沙雕动画 / 熊猫头漫剧",
+  "episode_duration_seconds": 90,
+  "target_image_model": "GPT Image / Midjourney / Flux / SDXL",
+  "target_video_model": "Seedance 2.5",
+  "characters": [],
+  "scenes": [],
+  "props": [],
+  "episodes": [
+    {
+      "id": "EP001",
+      "title": "",
+      "status": "planned"
+    }
+  ],
+  "constraints": [
+    "原创角色与原创剧情",
+    "视频不生成字幕、花字、LOGO、水印",
+    "默认不自动调用付费生成服务",
+    "角色、场景、道具使用稳定ID"
+  ]
+}

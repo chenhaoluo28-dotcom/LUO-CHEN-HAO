@@ -1,0 +1,4 @@
+interface:
+  display_name: "虾仁风沙雕漫剧工坊"
+  short_description: "从创意、剧本、分镜到成片的虾仁风沙雕漫剧提示词工作台"
+  default_prompt: "用 $sandiao-motion-comic 帮我从一句话创意做出一集虾仁风沙雕漫剧的剧本、分镜和全套 AI 提示词。"
